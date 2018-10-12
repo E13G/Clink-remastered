@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clink</string>
+    <string name="activation">Open</string>
+    <string name="create_gate">Create Gate</string>
+    <string name="enter_gate_code">Enter Gate Code</string>
+    <string name="new_nav_btn_txt">New Gate</string>
+    <string name="edit_nav_btn_txt">Edit</string>
+    <string name="delete_gate">Delete</string>
+    <string name="enter_name_code">Enter Name</string>
+    <string name="response_error">Network Error. Make sure you are using a valid Code</string>
+    <string name="edit_gate">Edit Gate</string>
+
+</resources>

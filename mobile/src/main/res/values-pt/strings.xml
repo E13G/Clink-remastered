@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activation">Abrir</string>
+    <string name="create_gate">Registar Portão</string>
+    <string name="enter_gate_code">Codígo do Portão</string>
+    <string name="new_nav_btn_txt">Novo Portão</string>
+    <string name="edit_nav_btn_txt">Editar</string>
+    <string name="delete_gate">Apagar</string>
+    <string name="enter_name_code">Nome</string>
+    <string name="response_error">Erro na ligação. Por favor verifique que o código do portão é valido</string>
+    <string name="edit_gate">Editar Portão</string>
+</resources>

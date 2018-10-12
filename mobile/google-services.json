@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "38833831740",
+    "firebase_url": "https://clink-8f3af.firebaseio.com",
+    "project_id": "clink-8f3af",
+    "storage_bucket": "clink-8f3af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38833831740:android:81cc8e911c05bc3b",
+        "android_client_info": {
+          "package_name": "com.endeavour.clink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38833831740-k2op0bhl6ala23hd3b274n3950d7magv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlxcgXLxrHVBUs6EuloXzVBkZJmG2vUwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

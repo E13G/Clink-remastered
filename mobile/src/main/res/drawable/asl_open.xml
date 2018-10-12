@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/gate_closed"
+        android:drawable="@drawable/ic_gate_closed"
+        app:state_closed="false"/>
+
+    <item
+        android:id="@+id/gate_open"
+        android:drawable="@drawable/ic_gate_open"
+        app:state_opened="true"/>
+
+    <item
+        android:id="@+id/key"
+        android:drawable="@drawable/ic_key"
+        app:state_key="true"/>
+
+    <transition
+        android:drawable="@drawable/avd_gate_close_to_open"
+        android:fromId="@id/gate_closed"
+        android:toId="@id/gate_open"/>
+
+    <transition
+        android:drawable="@drawable/avd_gate_open_to_closed"
+        android:fromId="@id/gate_open"
+        android:toId="@id/gate_closed"/>
+
+
+</animated-selector>

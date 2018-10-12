@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_gate_closed" />
+
+    <TextView
+        android:id="@+id/nav_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:text="@string/app_name"
+        android:textColor="@color/wall_color" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nav_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        style="@style/AppTheme.PrimaryButton"
+        android:text="@string/new_nav_btn_txt" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nav_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        style="@style/AppTheme.PrimaryButton"
+        android:text="@string/edit_nav_btn_txt" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:dropDownSelector="@color/wall_color"
+        android:background="@drawable/background_spinner"/>
+
+
+</LinearLayout>

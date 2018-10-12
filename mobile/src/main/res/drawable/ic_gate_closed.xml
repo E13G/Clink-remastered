@@ -1,0 +1,13 @@
+<vector android:height="80dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0"
+    android:width="80dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <path
+        android:name="gate_closed"
+        android:fillColor="@android:color/white"
+        android:pathData="@string/gate" />
+
+
+</vector>
